@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="overlay-card.css">
+    <style>
+        i{
+            padding-right: 7px;
+        }
+        .fa fa-download{
+            padding-left: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav" id="home">
+        <nav>
+            <div class="hamburger"  onclick="document.querySelector('.nav').classList.toggle('active')"></div>
+          <ul>
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about"><i class='fa fa-user' style='font-size:18px;color:grey'></i>ABOUT</a></li>
+            <li><a href="#projects"><i class='fas fa-book-open' style='font-size:18px;color:grey'></i>PROJECTS</a></li>
+            <li><a href="#contact"><i class='fa fa-envelope' style='font-size:18px;color:grey'></i>CONTACT</a></li>
+            <li style="float:right"><a href="https://github.com/YASHK-arch"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </nav>
+    </div>
+    <div class="hero1">
+        <h1>YASH KUMAR</h1>
+    </div>
+    <div class="about" id="about">
+        <h2>ABOUT ME: </h2>
+        <h4>I love creativity!</h4>
+        <div class="intro">
+            <p>Hello There! This is my first Portfolio Website.I am a student at Scaler School of Technology,pursuing a degree in AI and computer science along with that doing a BS in Data Science and Computer Science from Indian Institute of Technology, Madras.
+                It was long journey from giving Olympiads,trying to achieve international ranks,then competitive science exhibitions to giving the 
+                exhausting JEE exams , and finally entering a coding battle among the peers,tring to get a good rank on Codeforces, and here is my term 1 project that also marks my brains knowledge level of my HTML and CSS skills.
+            </p>
+            <br>
+            <div class="pic-life">
+              <img src="pic.jpg" height="100%" width="100%" alt="photo-pic">
+              <p class="side-content">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="skill">
+        <h2>My Skills:</h2>
+        <div class="bars">
+           <span>HTML: </span> 
+            <div class="progress-container">
+            <div class="progress-bar-html">100%</div>
+            </div>
+        </div>
+        <br>
+        <div class="bars">
+           <span>CSS: </span> 
+            <div class="progress-container">
+            <div class="progress-bar-css">90%</div>
+            </div>
+        </div>
+        <br>
+        <div class="bars">
+           <span>JAVA: </span> 
+            <div class="progress-container">
+            <div class="progress-bar-java">70%</div>
+            </div>
+        </div>
+        <br>
+        <div class="bars">
+           <span>JAVASCRIPT: </span> 
+            <div class="progress-container">
+            <div class="progress-bar-javascript">20%</div>
+            </div>
+        </div>
+        <br>
+        <div class="bars">
+           <span>PYTHON: </span> 
+            <div class="progress-container">
+            <div class="progress-bar-python">30%</div>
+            </div>
+        </div>
+        <br><br>
+
+    </div>
+    <div class="streak">
+        <div class="slab"><span class="rating">20+</span> Codeforce Questions Solved</div>
+        <div class="slab"><span class="rating">200+</span> Assignment Questions Solved</div>
+        <div class="slab"><span class="rating">2</span> Hackathons Took Part</div>
+        <div class="slab"><span class="rating">##</span> Leetcode Rating</div>
+    </div>
+    <div class="hero2">
+        <h2 class="slogan">1% Better Everyday</h2>
+    </div>
+    <div class="projects" id ="projects">
+        <br>
+        <h2>MY PROJECTS: </h2>
+        <h4>Projects I made through out the Webdev Journey.<br>All projects hosted on github and open for contribution.</h4>
+       <div class="container">
+        <div class="pr pr1">
+             <a href="https://yashk-arch.github.io/HACKATHON-1/"><div class="overlay">
+      <h3>AI Image Generator</h3>
+      <p>Hcakathon project based on HTML-CSS,Javascript and Unsplash API.</p>
+    </div></a>
+        </div>
+        <div class="pr pr2">
+             <a href=""><div class="overlay">
+      <h3>Pattern Generator</h3>
+      <p>Generates mathematical & artistic star patterns using JAVA.</p>
+    </div></a>
+        </div>
+        <div class="pr pr3">
+            <a href=""> <div class="overlay">
+      <h3>Sceneic Galery</h3>
+      <p>CSS project made using grid-template-areas property.</p>
+    </div></a>
+        </div>
+        <div class="pr pr4">
+            <a href><div class="overlay">
+      <h3>Smart India Hackathon</h3>
+      <p>Prototype:Automated Heavy Metal Pollution Index (HMPI) Calculator for Groundwater</p>
+    </div></a>
+        </div>
+
+        <div class="pr pr5">
+           <a href=""> <div class="overlay">
+      <h3>RDR FAN ART</h3>
+      <p>Unity + Blender based interactive scene.Sketchfab asset credits included.</p>
+    </div></a>
+        </div>
+        <div class="pr pr6">
+           <a href=""><div class="overlay">
+      <h3>Python CV controller</h3>
+      <p>Hill climbing racing using hand gesture controls, using Python extensions.</p>
+    </div></a> 
+        </div>
+        <div class="pr pr7">
+            <a href=""><div class="overlay">
+      <h3>Flooded Grounds</h3>
+      <p>3D environment level design in Unity.</p>
+    </div></a>
+        </div>
+        <div class="pr pr8">
+             <a href=""><div class="overlay">
+      <h3>Dog Gallery</h3>
+      <p>Basic dog gallery activity project made using HTML-CSS.</p>
+    </div></a>
+        </div>
+       </div>
+       <a href="#"><button>DOWNLOAD RESUME  <i class="fa fa-download" style="font-size:18px;color:red"></i></button></a>
+    </div>
+    
+    <div class="contactpic">
+        <h2 class="slogan">CONTACT</h2>
+    </div>
+    <br>
+    <h2 id="contact">WHERE I LIVE: </h2>
+        <h4>I'd love your feedback!</h4>
+    <div class="contact" id="contact">
+        <div class="scaler">
+            <img src="BANGALORE.gif" id="scaler-gif" alt="scaler-gif">
+        </div>
+        <div class="message">
+        
+             <ul id="address">
+                <li><i class='fas fa-map-marker-alt' style='font-size:20px'></i>  Uniworld-2, Velankani Drive, Bangalore, India</li>
+                <li><i class='fas fa-phone' style='font-size:20px'></i>  Phone: +91 9755045490</li>
+                <li><i class="fa fa-envelope" style="font-size:20px"></i>  Email: yashkumar02006@gmail.com</li>
+             </ul>
+             <br>
+             Swing by for a cup of <i class="fa fa-coffee" style="font-size:16px"></i>, or leave me a note:
+             <br><br>
+        <form>
+            <label>
+                <input type="text" placeholder="Name" required>
+            </label>
+             <label>
+                <input type="email" placeholder="Email" required>
+            </label>
+             <label class="mes">
+                <input type="text" placeholder="Message" id="mes" style="width:620px;height:60px;">
+            </label>
+            <button class="SUBMIT" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+            
+        </form>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="#home"><button> <i class='fas fa-arrow-circle-up' style='font-size:18px;color:grey'></i>To the top</button></a>
+        <div class="social">
+            <a href=""><i class='fab fa-linkedin-in' style='font-size:24px;color:whitesmoke'></i></a>
+            <a href=""><i class='fab fa-github' style='font-size:24px;color:whitesmoke'></i></a>
+            <a href=""><i class='fab fa-artstation' style='font-size:24px;color:whitesmoke'></i></a>
+            <a href=""><i class='fab fa-youtube' style='font-size:24px;color:whitesmoke'></i></a>
+        </div>
+        &copy; Yash Kumar 25bcs10348
+    </div>
+</body>
+
+</html>
